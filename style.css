@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&family=Fascinate+Inline&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --azul-metal: #3d5a80ff;
+    --azul-metal: #98c1d9ff;
+    --azul-ciano: #e0fbfcff;
+    --melao: #e7b4a5ff;
+    --laranja: #ee6c4dff;
+    --pretao-metal: rgb(38, 46, 60);
+    --fonte-titulo: "Fascinate Inline", system-ui;
+    --fonte-texto: "Dongle", sans-serif;
+}
+
+body{
+    background-color: var(--azul-ciano);
+    font-family: var(--fonte-texto);
+    color: var(--pretao-metal);
+    height: 100vh;
+}
+
+header{
+    background-color: var(--azul-metal);
+    text-align: center;
+}
+
+h1{
+    font-family: var(--fonte-titulo);
+    font-size: 3rem;
+    color: var(--pretao-metal);
+    padding: 0.5rem;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+}
+nav a{
+    text-decoration: none;
+    color: var(--pretao-metal);
+    font-size: 1.5rem;
+    margin: 0 2rem 1rem 0;
+}
