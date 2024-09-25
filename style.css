@@ -6,9 +6,9 @@
 }
 
 :root{
-    --azul-fraquinho: rgb(187, 200, 207);
+    --azul-fraquinho: rgb(220, 225, 227);
     --azul-ciano: #e0fbfcff;
-    --melao: #e7b4a5ff;
+    --melao: rgb(28, 60, 78);
     --laranja: #ee6c4dff;
     --pretao-metal: rgb(38, 46, 60);
     --fonte-titulo: "Fascinate Inline", system-ui;
@@ -45,14 +45,29 @@ nav a{
     margin: 0 2rem 1rem 0;
 }
 
+.caixa-grafico{
+    margin: 5rem;
+}
+
+.caixa-gráfico__texto{
+    font-size: 1.5rem;
+    background-color: var(--melao);
+    padding: 2rem;
+    border-radius: 15px;
+    font-family: var(--fonte-texto);
+    color: var(--azul-fraquinho);
+    border: var(--pretao-metal) groove 5px;
+}
+
 footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--azul-ciano);
-    color: var(--pretao-metal);
+    background-color: var(--pretao-metal);
+    color: var(--azul-fraquinho);
+    border: var(--melao) groove 5px;
     height: 3rem;
     margin-top: 2rem;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     font-family: var(--fonte-titulo);
 }
