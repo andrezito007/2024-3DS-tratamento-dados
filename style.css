@@ -47,16 +47,17 @@ nav a{
 
 .caixa-grafico{
     margin: 5rem;
-}
-
-.caixa-gráfico__texto{
-    font-size: 1.5rem;
     background-color: var(--melao);
     padding: 2rem;
     border-radius: 15px;
     font-family: var(--fonte-texto);
     color: var(--azul-fraquinho);
     border: var(--pretao-metal) groove 5px;
+}
+
+.caixa-gráfico__texto{
+    font-size: 1.5rem;
+    padding: 1.5em 0 1.5em 0;
 }
 
 footer{
