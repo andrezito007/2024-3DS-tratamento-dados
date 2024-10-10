@@ -1,4 +1,4 @@
-import { pegarCSS } from "./comum.js";
+import { pegarCss } from "./comum.js";
 
 async function graficosCalçados() {
     const url = 'https://raw.githubusercontent.com/andrezito007/2024-3DS-API-marcasDeCal-ado/refs/heads/main/link%20la%20do%20script';
@@ -28,8 +28,8 @@ async function graficosCalçados() {
     ];
 
     const layout = {
-        plot_bgcolor: pegarCSS('--melao'),
-        paper_bgcolor: pegarCSS('--azul-fraquinho')
+        plot_bgcolor: pegarCss('--melao'),
+        paper_bgcolor: pegarCss('--azul-fraquinho')
     };
 
     const pesquisaTitulo = document.createElement('h3');
